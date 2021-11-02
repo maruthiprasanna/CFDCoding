@@ -57,7 +57,7 @@ for i in range (len(T_new)):
         T_new[i] = T[i-1]
     else:
         T_new[i] = T_B
-div = 0.5/len(T_new) 
+        
 x = np.linspace(0,0.5,num=(nDivisions+2))
 plt.plot(x,T_new)
 plt.show()
